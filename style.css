@@ -34,16 +34,18 @@ body{
     text-align: right;
 }
 #search{
-    margin-top: 20px;
-    margin-right: 10px;
-    padding-top:10px;
+    margin-top: 25px;
+    margin-right: 12px;
+    padding-top: 1px;
     font: size 10px;
-    border: 3px black;
-    border-radius:5px ;
+    border: 10px black;
+    border-radius: 5px;
+    padding-left: 10px;
 }
 .first{
     color: rgb(255, 250, 176);
     padding: 22px;
+    font-family: cursive;
 }
 .btn{
     background: none;
@@ -51,5 +53,10 @@ body{
     position: sticky;
     margin-right: 25px;
     border-color: rgb(224, 221, 221); 
+}
+.h3{
+    font-family: cursive;
+    text-decoration: dotted;
+    text-shadow: 1px;
 }
 
