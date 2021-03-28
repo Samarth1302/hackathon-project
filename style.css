@@ -91,3 +91,7 @@ body{
 ::placeholder{
     color:rgb(200, 255, 0);
 }
+#About{
+    color:rgb(190, 253, 71);
+    margin-left: 59px;
+}
