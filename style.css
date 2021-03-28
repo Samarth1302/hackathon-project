@@ -42,6 +42,9 @@ body{
     border-radius: 5px;
     padding-left: 10px;
 }
+.searchbar ::placeholder{
+    color:black;
+}
 .first{
     color: rgb(255, 250, 176);
     padding: 22px;
@@ -59,4 +62,32 @@ body{
     text-decoration: dotted;
     text-shadow: 1px;
 }
-
+.second{
+    padding: 92px;
+    margin: 79px;
+    margin-left: 223px;
+    width: 60%;
+}
+#linkinput{
+    height: 20px;
+    width: 545px;
+    border-radius: 35px;
+    background-color: transparent;
+    border-color: rgb(208, 255, 0);
+    color: #ebfc00;
+    padding-left: 50px;
+    text-align: center;
+}
+#compressbutton{
+    background-color: rgb(217, 255, 0);
+    border-radius: 5px;
+    font: oblique;
+    width: 144px;
+    height: 27px;
+}
+.h1{
+    font-style: unset;
+}
+::placeholder{
+    color:rgb(200, 255, 0);
+}

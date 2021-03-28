@@ -1,4 +1,4 @@
-var endpoint="";
+var endpoint="";//the endpoint is not available currently we need to create one // 
 
 function urlinput(){
     var url=document.getElementById("linkinput").value;
@@ -47,5 +47,6 @@ if( window.location.hash!=""){
         }
     });
 }
+
 
 

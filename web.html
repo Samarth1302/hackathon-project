@@ -19,19 +19,22 @@
             <button class="btn btn-sm">Search</button>
         </div>
     </nav>
-    <section class="first">
+    <section class="first" id="Home">
         <div class="intro">
             <h1>Condensely</h1>
-            <p class="text-int">Free URL shortener tool.</p>
+            <p class="text-int"> URL shortener tool. Most of the companies providing
+            URL shortening services are rather not reliable. Some provide paid services. 
+            But Condensely provides free services and quick diagnostics. 
+            Use the box below to shorten your URL.
+            </p>
         </div>
     </section>
-    <section class="second">
-        <input type="url" id="linkinput">
-        <button onclick="urlshortener()">Compress your URL</button>
+    
+    <section class="second" id="Home">
+        <input type="url" id="linkinput" placeholder="Paste your URL here">
+        <button onclick="urlshortener()" id="compressbutton">Compress your URL</button>
+        <script src="js/jquery-3.6.0.min.js"></script>
         <script src="url.js"></script>
     </section>
-    <div>
-
-    </div>
 </body>
 </html>
